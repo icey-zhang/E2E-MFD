@@ -88,7 +88,7 @@ python ./tools/generate_dusion_image.py
 
 ## **Result**
 
-[DroneVehicle weights](https://drive.google.com/file/d/1U_u1s61sb0-SrkcUEb3HaDVLZtznCRV7/view?usp=share_link) <br>
+[DroneVehicle weights](https://drive.google.com/file/d/1U_u1s61sb0-SrkcUEb3HaDVLZtznCRV7/view?usp=sharing) <br>
 [DroneVehicle logs](./assets/train.log)
 
 ## **Future**
