@@ -52,6 +52,8 @@ pip install -r requirements.txt
 
 ### Prepare the dataset DroneVehicle
 
+you can download the dataset at baiduyun with [train](https://pan.baidu.com/s/1ptZCJ1mKYqFnMnsgqEyoGg) (code:ngar) and [test](https://pan.baidu.com/s/1JlXO4jEUQgkR1Vco1hfKhg) ((code:tqwc)).
+
 ```python
 root
 ├── DroneVehicle
