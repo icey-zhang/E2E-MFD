@@ -16,11 +16,11 @@ The code is based on **[MMdetection](https://github.com/open-mmlab/mmdetection) 
 
 ### Installation
 
-ref : [mmdetection installation](https://mmdetection.readthedocs.io/en/latest/get_started.html)
+ref : [mmrotate installation](https://mmrotate.readthedocs.io/en/latest/install.html#installation) and [mmdetection installation](https://mmdetection.readthedocs.io/en/latest/get_started.html)
 
 **Step 1: Clone the RSDet repository:**
 
-To get started, first clone the RSDet repository and navigate to the project directory:
+To get started, first clone the E2E-MFD repository and navigate to the project directory:
 
 ```bash
 git clone https://github.com/Zhao-Tian-yi/RSDet.git
