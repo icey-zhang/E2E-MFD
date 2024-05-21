@@ -73,7 +73,7 @@ root
 
 ***Begin to train and test***
 
-Use the config file with [this](./tools/cfg/lsk_s_fpn_1x_dota_le90.py)
+Use the config file with [this](./tools/cfg/lsk_s_fpn_1x_dota_le90.py).
 
 ```python
 python ./tools/train.py
@@ -83,7 +83,7 @@ python ./tools/test.py
 ## **Result**
 
 [DroneVehicle weights](https://drive.google.com/file/d/16X6uQXVYMKur8Qs4qkcptLVMeIgvW5pD/view?usp=sharing) <br>
-[DroneVehicle logs](https://drive.google.com/file/d/11tiHFCRG8ubt23g-BN1wY3W94pYNimL0/view?usp=sharing)
+[DroneVehicle logs](./assets/train.log)
 
 ## **Future**
 The paper is under review, and this code repository is complete for rotating object detection, we will add the horizontal object detection code after it is accepted.
