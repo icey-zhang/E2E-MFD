@@ -85,7 +85,7 @@ python ./tools/test.py
 ### Generate fusion images
 
 ```python
-python ./tools/generate_dusion_image.py
+python ./tools/generate_fusion_image.py
 ```
 
 ## **Result**
