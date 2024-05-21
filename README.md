@@ -18,27 +18,27 @@ The code is based on **[MMdetection](https://github.com/open-mmlab/mmdetection) 
 
 ref : [mmrotate installation](https://mmrotate.readthedocs.io/en/latest/install.html#installation) and [mmdetection installation](https://mmdetection.readthedocs.io/en/latest/get_started.html)
 
-**Step 1: Clone the RSDet repository:**
+**Step 1: Clone the E2E-MFD repository:**
 
 To get started, first clone the E2E-MFD repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/Zhao-Tian-yi/RSDet.git
-cd RSDet
+git clone *****
+cd *****
 ```
 
 **Step 2: Environment Setup:**
 
-RSDet recommends setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment:
+E2E-MFD recommends setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment:
 
 ***Create and activate a new conda environment***
 
 ```bash
-conda create -n RSDet
-conda activate RSDet
+conda create -n E2E-MFD
+conda activate E2E-MFD
 ```
 
-***If you develop and run mmdet directly, install it from source***
+***If you develop and run mmrotate directly, install it from source***
 
 ```
 pip install -v -e .
@@ -48,12 +48,42 @@ pip install -v -e .
 
 ```bash
 pip install -r requirements.txt
-pip install -r requirements_rgbt.txt
+```
+
+***Prepare the dataset DroneVehicle***
+
+```python
+root
+├── DroneVehicle
+│   ├── train
+│   │   ├── rgb
+│   │   │   ├── images
+│   │   │   ├── labels
+│   │   ├── ir
+│   │   │   ├── images
+│   │   │   ├── labels
+│   ├── test
+│   │   ├── rgb
+│   │   │   ├── images
+│   │   │   ├── labels
+│   │   ├── ir
+│   │   │   ├── images
+│   │   │   ├── labels
+```
+
+***Begin to train and test***
+
+Use the config file in ./tools/cfg/lsk_s_fpn_1x_dota_le90.py
+
+```python
+python ./tools/train.py
+python ./tools/test.py
 ```
 
 ## **Result**
 
-[Kaist Result](https://drive.google.com/file/d/11tiHFCRG8ubt23g-BN1wY3W94pYNimL0/view?usp=sharing)
+[DroneVehicle weights](https://drive.google.com/file/d/16X6uQXVYMKur8Qs4qkcptLVMeIgvW5pD/view?usp=sharing) <br>
+[DroneVehicle logs](https://drive.google.com/file/d/11tiHFCRG8ubt23g-BN1wY3W94pYNimL0/view?usp=sharing)
 
 ## **Future**
-The paper is under review, and this code repository will be updated after accepted
+The paper is under review, and this code repository is complete for rotating object detection, we will add the horizontal object detection code after it is accepted.
