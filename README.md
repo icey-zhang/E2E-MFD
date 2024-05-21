@@ -50,7 +50,7 @@ pip install -v -e .
 pip install -r requirements.txt
 ```
 
-***Prepare the dataset DroneVehicle***
+### Prepare the dataset DroneVehicle
 
 ```python
 root
@@ -71,13 +71,19 @@ root
 │   │   │   ├── labels
 ```
 
-***Begin to train and test***
+### Begin to train and test
 
 Use the config file with [this](./tools/cfg/lsk_s_fpn_1x_dota_le90.py).
 
 ```python
 python ./tools/train.py
 python ./tools/test.py
+```
+
+### Generate fusion images
+
+```python
+python ./tools/generate_dusion_image.py
 ```
 
 ## **Result**
