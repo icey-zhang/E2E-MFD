@@ -14,7 +14,7 @@ model = dict(
         drop_rate=0.1,
         drop_path_rate=0.1,
         depths=[3, 3, 5, 2],
-        # init_cfg=dict(type='Pretrained', checkpoint="/home/data3/zys/pretrained_weights/lsk_t_backbone.pth.tar"),
+        # init_cfg=dict(type='Pretrained', checkpoint=""),
         norm_cfg=dict(type='BN', requires_grad=True)),
     neck=dict(
         type='FPN',
