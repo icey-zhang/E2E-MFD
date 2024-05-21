@@ -40,7 +40,7 @@ conda activate E2E-MFD
 
 ***If you develop and run mmrotate directly, install it from source***
 
-```
+```bash
 pip install -v -e .
 ```
 
