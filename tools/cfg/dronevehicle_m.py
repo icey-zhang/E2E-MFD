@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'DroneVehicleDataset'
-data_root = "/home/data3/zys/DroneVehicle_mm/" 
+data_root = "" 
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 # train_pipeline = [
@@ -41,16 +41,16 @@ data = dict(
     workers_per_gpu=8,
     train=dict(
         type=dataset_type,
-        ann_file=data_root + 'train/ir/labelsTxt/',    #labelsTxt     test use the labels(only 8 images)
-        img_prefix=data_root + 'train/rgb/images/',            #'train/rgb/images/'
+        ann_file=data_root + '',    
+        img_prefix=data_root + '',           
         pipeline=train_pipeline),          
     val=dict(
         type=dataset_type,
-        ann_file=data_root + 'test/ir/labels_mm/',     #labels_mm    'test/ir/labels_mm/'
-        img_prefix=data_root + 'test/rgb/images/',                #'test/rgb/images/'
+        ann_file=data_root + '',     
+        img_prefix=data_root + '',              
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'test/ir/labels_mm/',      #labels_mm 
-        img_prefix=data_root + 'test/rgb/images/',
+        ann_file=data_root + '',     
+        img_prefix=data_root + '',
         pipeline=test_pipeline))
