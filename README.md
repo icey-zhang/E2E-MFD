@@ -94,4 +94,4 @@ python ./tools/generate_dusion_image.py
 [DroneVehicle logs](./assets/train.log)
 
 ## **Future**
-The paper is under review, and this code repository is complete for rotating object detection, we will add the horizontal object detection code after it is accepted.
+The paper is under review, and this code repository is complete for rotating object detection, we will add the horizontal object detection code and fusion images after it is accepted.
