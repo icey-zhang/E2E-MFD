@@ -73,7 +73,7 @@ root
 
 ***Begin to train and test***
 
-Use the config file in ./tools/cfg/lsk_s_fpn_1x_dota_le90.py
+Use the config file with [this](./tools/cfg/lsk_s_fpn_1x_dota_le90.py)
 
 ```python
 python ./tools/train.py
