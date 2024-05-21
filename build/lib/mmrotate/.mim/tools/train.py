@@ -23,8 +23,8 @@ from mmrotate.utils import collect_env, get_root_logger, setup_multi_processes
 os.environ['CUDA_VISIBLE_DEVICES'] = '7'
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
-    parser.add_argument('--config', default='/home/zjq/LSKcmx/tools/cfg/lsk_t_fpn_1x_dota_le90.py', help='train config file path')
-    parser.add_argument('--work-dir', default='/home/zjq/LSKcmx/output/DroneVehicle', help='the dir to save logs and models')
+    parser.add_argument('--config', default='', help='train config file path')
+    parser.add_argument('--work-dir', default='', help='the dir to save logs and models')
     parser.add_argument(
         '--resume-from', help='the checkpoint file to resume from')
     parser.add_argument(
