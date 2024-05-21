@@ -23,17 +23,17 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 if __name__ == '__main__':
     device = 'cuda'
     
-    cfg = Config.fromfile('/home/zjq/LSKcmx/tools/cfg/lsk_s_fpn_1x_dota_le90.py')
+    cfg = Config.fromfile('lsk_s_fpn_1x_dota_le90.py')
     setup_multi_processes(cfg)
 
     model_my = Oriented_rcnn_m(cfg.model.backbone, cfg.model.neck, cfg.model.rpn_head, cfg.model.roi_head, cfg.model.train_cfg, cfg.model.test_cfg).to(device)
-    model_data = torch.load('/home/zjq/LSKcmx/output/s_maxhalf_ir_bs4/epoch_12.pth')
+    model_data = torch.load('epoch_12.pth')
     # key = model.load_state_dict(model_data['model'], strict=True)
     key = model_my.load_state_dict(model_data['state_dict'], strict=False)
     model_my.eval()
-    iter_name = 's_maxhalf_ir_DV_RGB/'
-    iter_name_V = 's_maxhalf_ir_DV_V/'
-    path_out = '/home/data3/zjq/DroneVehicle_mm/generate_DV/test/'
+    iter_name = ''
+    iter_name_V = ''
+    path_out = ''
 
     os.makedirs(path_out + iter_name, exist_ok=True)
     os.makedirs(path_out + iter_name_V, exist_ok=True)
