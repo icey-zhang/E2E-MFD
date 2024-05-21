@@ -34,7 +34,7 @@ E2E-MFD recommends setting up a conda environment and installing dependencies vi
 ***Create and activate a new conda environment***
 
 ```bash
-conda create -n E2E-MFD
+conda create -n E2E-MFD python=3.9.17
 conda activate E2E-MFD
 ```
 
