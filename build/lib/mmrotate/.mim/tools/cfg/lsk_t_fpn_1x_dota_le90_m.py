@@ -17,7 +17,7 @@ model = dict(
         depths_main=[3, 3, 5, 2],
         depths_aux=[3, 3, 5, 2],
         fusion_stage=1,
-        # init_cfg=dict(type='Pretrained', checkpoint="/home/data3/zys/pretrained_weights/lsk_t_backbone_twostream.pth.tar"),
+        # init_cfg=dict(type='Pretrained', checkpoint=""),
         norm_cfg=dict(type='BN', requires_grad=True)),
     neck=dict(
         type='FPN',
