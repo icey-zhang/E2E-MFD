@@ -48,7 +48,7 @@ class LoadPatchFromImage(LoadImageFromFile):
         return results
 
 def bri_clr_loader1(data):
-    img1 = cv2.cvtColor(data, cv2.COLOR_BGR2HSV) #zjq
+    img1 = cv2.cvtColor(data, cv2.COLOR_BGR2HSV) 
     # img1 = cv2.cvtColor(data, cv2.COLOR_RGB2YCrCb)
     color = img1[:, :, 0:2]
     brightness = img1[:, :, 2]
