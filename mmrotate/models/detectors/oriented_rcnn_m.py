@@ -670,7 +670,7 @@ class Oriented_rcnn_m(RotatedBaseDetector):
         _, res_weight = self.fusion(features,inputs) #这个测试需要修改
         end = time.time()
         time_per_img = end-start
-        # cmx
+        
         # greater = torch.gt(res_weight[:, 0:1, :, :], res_weight[:, 1:, :, :])  #ir权重大于bri的话在对应位置返回true
         # num_greater = torch.sum(greater).item()
         # total = res_weight[:, 1:, :, :].numel()
