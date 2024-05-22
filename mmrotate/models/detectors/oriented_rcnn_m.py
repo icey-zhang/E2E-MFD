@@ -637,7 +637,7 @@ class Oriented_rcnn_m(RotatedBaseDetector):
         clr = visimage_clr.cpu().numpy().squeeze().transpose(1, 2, 0)
         clr = np.concatenate((clr, bri.reshape(fus_img.size()[2], fus_img.size()[3], 1)), axis=2)
         clr[:, :, 2] = im1
-        clr = cv2.cvtColor(clr.astype(np.uint8), cv2.COLOR_HSV2RGB) #zjq
+        clr = cv2.cvtColor(clr.astype(np.uint8), cv2.COLOR_HSV2RGB) 
         
         return clr
 
