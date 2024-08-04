@@ -1,7 +1,6 @@
 <div align="center">
 <h1> E2E-MFD </h1>
 <h3> E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection</h3>
-<h4> The horizontal OD code is released at [here](https://github.com/icey-zhang/E2E-MFD-HOD).</h4>
 
 </div>
 
