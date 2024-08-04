@@ -1,6 +1,7 @@
 <div align="center">
 <h1> E2E-MFD </h1>
 <h3> E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection</h3>
+<h4> The horizontal OD code is released at [here](https://github.com/icey-zhang/E2E-MFD-HOD).</h4>
 
 </div>
 
@@ -95,4 +96,4 @@ python ./tools/generate_fusion_image.py
 [DroneVehicle logs](./assets/train.log)
 
 ## **Future**
-The paper is under review, and this code repository is complete for rotating object detection, we will add the horizontal object detection code and fusion images after it is accepted.
+The paper is under review, and this code repository is complete for rotating object detection.
