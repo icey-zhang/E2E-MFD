@@ -4,7 +4,7 @@
 
   
 </div>
-
+The paper has been accepted at **NeurlPS 2024** as an oral！！！
 The code is based on **[MMdetection](https://github.com/open-mmlab/mmdetection) 2.26.0**, **[MMrotate](https://github.com/open-mmlab/mmrotate/) 0.3.4** and **[MMCV-full](https://github.com/open-mmlab/mmcv) 1.7.2**. We modify its data loading, related classes, and functions. We revise the MMdetection and MMrotate to a multi-modal oriented detection framework to facilitate **Multimodal Object Detection**.
 
 
@@ -95,6 +95,3 @@ python ./tools/generate_fusion_image.py
 
 [DroneVehicle weights](https://drive.google.com/file/d/1U_u1s61sb0-SrkcUEb3HaDVLZtznCRV7/view?usp=sharing) <br>
 [DroneVehicle logs](./assets/train.log)
-
-## **Future**
-The paper is under review, and this code repository is complete for rotating object detection.
