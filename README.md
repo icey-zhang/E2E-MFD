@@ -92,7 +92,63 @@ python ./tools/test.py
 python ./tools/generate_fusion_image.py
 ```
 
-## **Result**
+## Result
 
 [DroneVehicle weights](https://drive.google.com/file/d/1U_u1s61sb0-SrkcUEb3HaDVLZtznCRV7/view?usp=sharing) <br>
 [DroneVehicle logs](./assets/train.log)
+
+## Citation
+If our code is helpful to you, please cite:
+
+```
+@ARTICLE{10075555,
+  author={Zhang, Jiaqing and Lei, Jie and Xie, Weiying and Fang, Zhenman and Li, Yunsong and Du, Qian},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SuperYOLO: Super Resolution Assisted Object Detection in Multimodal Remote Sensing Imagery}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-15},
+  doi={10.1109/TGRS.2023.3258666}}
+
+@article{zhang2023guided,
+  title={Guided Hybrid Quantization for Object Detection in Remote Sensing Imagery via One-to-one Self-teaching},
+  author={Zhang, Jiaqing and Lei, Jie and Xie, Weiying and Li, Yunsong and Yang, Geng and Jia, Xiuping},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2023},
+  publisher={IEEE}
+}
+
+@misc{zhang2024e2emfd,
+      title={E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection}, 
+      author={Jiaqing Zhang and Mingxiang Cao and Xue Yang and Weiying Xie and Jie Lei and Daixun Li and Wenbo Huang and Yunsong Li},
+      year={2024},
+      eprint={2403.09323},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2403.09323}, 
+}
+
+
+```
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://api.star-history.com/svg?repos=icey-zhang/E2E-MFD&type=Date&theme=dark
+    "
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="
+      https://api.star-history.com/svg?repos=icey-zhang/E2E-MFD&type=Date
+    "
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=icey-zhang/E2E-MFD&type=Date"
+  />
+</picture>
+
+
+
