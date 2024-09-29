@@ -147,6 +147,8 @@ If our code is helpful to you, please cite:
   <img
     alt="Star History Chart"
     src="https://api.star-history.com/svg?repos=icey-zhang/E2E-MFD&type=Date"
+    width="400"  <!-- 设置宽度 -->
+    height="300" <!-- 可选设置高度 -->
   />
 </picture>
 
