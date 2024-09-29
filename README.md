@@ -26,8 +26,8 @@ ref : [mmrotate installation](https://mmrotate.readthedocs.io/en/latest/install.
 To get started, first clone the E2E-MFD repository and navigate to the project directory:
 
 ```bash
-git clone *****
-cd *****
+git clone https://github.com/icey-zhang/E2E-MFD
+cd E2E-MFD
 ```
 
 **Step 2: Environment Setup:**
