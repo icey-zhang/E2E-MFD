@@ -119,14 +119,10 @@ If our code is helpful to you, please cite:
   publisher={IEEE}
 }
 
-@misc{zhang2024e2emfd,
-      title={E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection}, 
-      author={Jiaqing Zhang and Mingxiang Cao and Xue Yang and Weiying Xie and Jie Lei and Daixun Li and Wenbo Huang and Yunsong Li},
-      year={2024},
-      eprint={2403.09323},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2403.09323}, 
+@inproceedings{zhange2e,
+  title={E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection},
+  author={Zhang, Jiaqing and Cao, Mingxiang and Xie, Weiying and Lei, Jie and Huang, Wenbo and Li, Yunsong and Yang, Xue and others},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
 }
 
 
