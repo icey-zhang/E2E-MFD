@@ -1,8 +1,7 @@
 <div align="center">
 <h1> E2E-MFD </h1>
 <h3> <a href="https://arxiv.org/abs/2403.09323">E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection</h3>
-
-<h4> NeurlPS 2024 oral
+<h4> NeurlPS 2024 oral</h4>
   
 </div>
 
