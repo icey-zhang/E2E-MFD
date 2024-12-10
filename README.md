@@ -121,7 +121,7 @@ If our code is helpful to you, please cite:
 
 @inproceedings{zhange2e,
   title={E2E-MFD: Towards End-to-End Synchronous Multimodal Fusion Detection},
-  author={Zhang, Jiaqing and Cao, Mingxiang and Xie, Weiying and Lei, Jie and Huang, Wenbo and Li, Yunsong and Yang, Xue and others},
+  author={Zhang, Jiaqing and Cao, Mingxiang and Xie, Weiying and Lei, Jie and Huang, Wenbo and Li, Yunsong and Yang, Xue},
   booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
 }
 
